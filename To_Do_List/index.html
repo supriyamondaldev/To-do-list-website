@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Management App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Time Management</h1>
+        
+        <div class="todo-list">
+            <h2>To-Do List</h2>
+            <input type="text" id="todoInput" placeholder="Add a new task">
+            <button id="addTaskButton">Add Task</button>
+            <ul id="tasks"></ul>
+        </div>
+
+        <div class="email-form">
+            <h2>Send Email</h2>
+            <input type="email" id="emailInput" placeholder="Your email" required>
+            <textarea id="messageInput" placeholder="Your message" required></textarea>
+            <button id="sendEmailButton">Send Email</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
